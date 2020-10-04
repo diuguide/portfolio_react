@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import NavBar from '../components/NavBar/index';
 import Footer from '../components/Footer/index';
 import Banner from '../components/Banner/index';
+import About from '../components/About/index';
+
+
 export class Home extends Component {
     state = {
         nameFirst: "Everett",
@@ -22,6 +25,7 @@ export class Home extends Component {
                     nameLast={this.state.nameLast}
                     position={this.state.position}
                 />
+                <About />
                 <Footer 
                     nameFirst={this.state.nameFirst}
                     nameLast={this.state.nameLast}

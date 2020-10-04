@@ -19,7 +19,11 @@ export class Home extends Component {
         return (
             <div>
                 <NavBar />
-                <Banner />
+                <Banner
+                    nameFirst={this.state.nameFirst}
+                    nameLast={this.state.nameLast}
+                    position={this.state.position}
+                />
                 <ContactCard
                     nameFirst={this.state.nameFirst}
                     nameLast={this.state.nameLast}
@@ -27,7 +31,7 @@ export class Home extends Component {
                     email={this.state.email}
                     linkedIn={this.state.linkedIn}
                     gitHub={this.state.gitHub}
-                    />
+                />
                 <Footer />
             </div>
         )

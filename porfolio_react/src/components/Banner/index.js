@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Banner(props) {
     return (
@@ -6,7 +7,7 @@ function Banner(props) {
             <div className="col">
                 <div className="row">
                     <div className="col">
-                        <h2 className="name">{props.nameFirst} {props.nameLast}</h2>
+                        <Link to='/'><h3>{props.nameFirst} {props.nameLast}</h3></Link>
                     </div>
                 </div>
                 <div className="row">

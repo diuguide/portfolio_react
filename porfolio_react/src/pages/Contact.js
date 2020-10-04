@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import NavBar from '../components/NavBar/index';
 import Footer from '../components/Footer/index';
 import Banner from '../components/Banner/index';
-export class Home extends Component {
+import ContactCard from '../components/ContactCard/index';
+
+export class Contact extends Component {
     state = {
         nameFirst: "Everett",
         nameLast: "Diuguid",
@@ -16,11 +18,18 @@ export class Home extends Component {
     render() {
         return (
             <div>
+                <h1>Contacts</h1>
                 <NavBar />
                 <Banner
                     nameFirst={this.state.nameFirst}
                     nameLast={this.state.nameLast}
                     position={this.state.position}
+                />
+                <ContactCard 
+                        nameFirst={this.state.nameFirst}
+                        nameLast={this.state.nameLast}
+                        position={this.state.position}
+                                    
                 />
                 <Footer 
                     nameFirst={this.state.nameFirst}
@@ -31,4 +40,4 @@ export class Home extends Component {
     }
 }
 
-export default Home
+export default Contact

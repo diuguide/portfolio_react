@@ -5,7 +5,7 @@ import Footer from '../components/Footer/index';
 import Banner from '../components/Banner/index';
 import ContactCard from '../components/ContactCard/index';
 export class Home extends Component {
-    static propTypes = {
+    state = {
         nameFirst: "Everett",
         nameLast: "Diuguid",
         phone: "(919) 801-8756",
@@ -20,7 +20,14 @@ export class Home extends Component {
             <div>
                 <NavBar />
                 <Banner />
-                <ContactCard />
+                <ContactCard
+                    nameFirst={this.state.nameFirst}
+                    nameLast={this.state.nameLast}
+                    phone={this.state.phone}
+                    email={this.state.email}
+                    linkedIn={this.state.linkedIn}
+                    gitHub={this.state.gitHub}
+                    />
                 <Footer />
             </div>
         )

@@ -1,6 +1,7 @@
 import React from'react';
 
-function ContactCard() {
+function ContactCard(props) {
+    console.log(props);
     return (
         <div  className="row">
                 <div className="col-sm-10 col-md-6 col-lg-6 m-3 bg-light rounded">
@@ -9,20 +10,19 @@ function ContactCard() {
                             <div className="card-header">
                                 <div className="row">
                                     <div className="col">
-                                        <h3>Everett Diuguid:<h5>Full-Stack Web Developer</h5>
-                                        </h3>
+                                        <h3>{props.nameFirst} {props.nameLast}</h3>
                                     </div>
                                 </div>
                             </div>
                             <div className="card-body">
                                 <div className="row">
                                     <div className="col">
-                                        <h5>Email: everett.diuguid@gmail.com</h5>
+                                        <h5>Email: {props.email} </h5>
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="col">
-                                        <h6>Daytime Phone: (919)-801-8756</h6>
+                                        <h6>Phone: {props.phone} </h6>
                                     </div>
                                 </div>
                                 <div className="row">

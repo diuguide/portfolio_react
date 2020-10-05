@@ -1,4 +1,5 @@
 import React from'react';
+import { Link } from 'react-router-dom';
 
 function ContactCard(props) {
     console.log(props);
@@ -7,13 +8,6 @@ function ContactCard(props) {
                 <div className="col-sm-10 col-md-6 col-lg-6 m-3 bg-light rounded">
                     <div className="row">
                         <div className="card shadow">
-                            <div className="card-header">
-                                <div className="row">
-                                    <div className="col">
-                                        <h3>{props.nameFirst} {props.nameLast}</h3>
-                                    </div>
-                                </div>
-                            </div>
                             <div className="card-body">
                                 <div className="row">
                                     <div className="col">
@@ -44,13 +38,8 @@ function ContactCard(props) {
                                 </div>
                                 <div className="row">
                                     <div className="col">
-                                        {/* <a href="https://github.com/diuguide" target="_blank">
-                                            <img className="links" src="./assets/img/githubsmall.png" alt="GitHub">
-                                        </a>
-                                        <a href="https://www.linkedin.com/in/everett-diuguid-583632197/"
-                                            target="_blank">
-                                            <img className="links" src="./assets/img/linkedin.png" alt="linkedin">
-                                        </a> */}
+                                        <img src="githubsmall.png" alt="GitHub" />
+                                        <img className="links" src="./assets/img/linkedin.png" alt="linkedin" />
                                     </div>
                                 </div>
                             </div>

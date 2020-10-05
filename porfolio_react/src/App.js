@@ -8,7 +8,7 @@ import NavBar from './components/NavBar/index';
 
 function App() {
   return (
-    <div id="page">
+    <div style={{backgroundColor: "#ecf8f8"}}>
       <Router>
         <NavBar />
         <Route exact path='/' component={Home} />

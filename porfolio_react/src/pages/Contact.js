@@ -27,6 +27,8 @@ export class Contact extends Component {
                     position={this.state.position}
                     email={this.state.email}
                     phone={this.state.phone}
+                    linkedIn={this.state.linkedIn}
+                    gitHub={this.state.gitHub}
 
                 />
             </div>

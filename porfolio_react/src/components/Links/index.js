@@ -12,12 +12,12 @@ function Links() {
             </div>
             <div className="row">
                 <div className="col">
-                    <Link role="button" className="btn btn-info w-100 mb-3" to="/Projects">Projects</Link>
+                    <Link style={{backgroundColor: "#9b9b7a"}} role="button" className="btn btn-info w-100 mb-3" to="/Projects">Projects</Link>
                 </div>
             </div>
             <div className="row">
                 <div className="col">
-                    <Link role="button" className="btn btn-info w-100" to="/Contact">Contact Me!</Link>
+                    <Link style={{backgroundColor: "#9b9b7a"}} role="button" className="btn btn-info w-100" to="/Contact">Contact Me!</Link>
                 </div>
             </div>
         </div>

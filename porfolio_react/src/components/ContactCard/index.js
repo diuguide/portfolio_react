@@ -1,5 +1,7 @@
 import React from'react';
 import { Link } from 'react-router-dom';
+import gitHubImg from './githubsmall.png';
+import linkedInImg from './linkedin.png';
 
 function ContactCard(props) {
     console.log(props);
@@ -38,8 +40,8 @@ function ContactCard(props) {
                                 </div>
                                 <div className="row">
                                     <div className="col">
-                                        <img src="githubsmall.png" alt="GitHub" />
-                                        <img className="links" src="./assets/img/linkedin.png" alt="linkedin" />
+                                        <img src={gitHubImg} alt="GitHub" />
+                                        <img src={linkedInImg} alt="linkedin" />
                                     </div>
                                 </div>
                             </div>

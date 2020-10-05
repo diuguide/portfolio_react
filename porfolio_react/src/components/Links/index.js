@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Links() {
     return (
@@ -11,12 +12,12 @@ function Links() {
             </div>
             <div className="row">
                 <div className="col">
-                    <a role="button" className="btn btn-info w-100 mb-3" href="/Projects">Projects</a>
+                    <Link role="button" className="btn btn-info w-100 mb-3" to="/Projects">Projects</Link>
                 </div>
             </div>
             <div className="row">
                 <div className="col">
-                    <a role="button" className="btn btn-info w-100" href="/Contact">Contact Me!</a>
+                    <Link role="button" className="btn btn-info w-100" to="/Contact">Contact Me!</Link>
                 </div>
             </div>
         </div>

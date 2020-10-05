@@ -15,7 +15,7 @@ export class Home extends Component {
 
     render() {
         return (
-            <div className="container bg-light">
+            <div className="container">
                 <Banner
                     nameFirst={this.state.nameFirst}
                     nameLast={this.state.nameLast}

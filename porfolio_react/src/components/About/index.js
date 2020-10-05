@@ -13,6 +13,7 @@ function About(props) {
             </div>
             <Links />
         </div>
+
     )
 }
 export default About;

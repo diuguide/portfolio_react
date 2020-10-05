@@ -19,7 +19,7 @@ export class Home extends Component {
         return (
             <div className="container">
                 <div className="row">
-                    <div className="col col-md-4 col-lg-9">
+                    <div className="col col-md-4 col-lg-8 m-1">
                         <Banner
                             nameFirst={this.state.nameFirst}
                             nameLast={this.state.nameLast}

@@ -16,21 +16,26 @@ export class Contact extends Component {
     render() {
         return (
             <div className="container">
-                <Banner
-                    nameFirst={this.state.nameFirst}
-                    nameLast={this.state.nameLast}
-                    position={this.state.position}
-                />
-                <ContactCard
-                    nameFirst={this.state.nameFirst}
-                    nameLast={this.state.nameLast}
-                    position={this.state.position}
-                    email={this.state.email}
-                    phone={this.state.phone}
-                    linkedIn={this.state.linkedIn}
-                    gitHub={this.state.gitHub}
+                <div clasName="row">
+                    <div className="col col-md-4 col-lg-6 mx-auto">
+                        <Banner
+                            nameFirst={this.state.nameFirst}
+                            nameLast={this.state.nameLast}
+                            position={this.state.position}
+                        />
+                        <ContactCard
+                            nameFirst={this.state.nameFirst}
+                            nameLast={this.state.nameLast}
+                            position={this.state.position}
+                            email={this.state.email}
+                            phone={this.state.phone}
+                            linkedIn={this.state.linkedIn}
+                            gitHub={this.state.gitHub}
 
-                />
+                        />
+                    </div>
+                </div>
+
             </div>
         )
     }

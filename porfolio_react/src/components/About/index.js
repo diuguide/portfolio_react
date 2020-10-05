@@ -1,5 +1,4 @@
 import React from 'react';
-import Links from '../Links/index';
 
 function About(props) {
     return (
@@ -11,7 +10,6 @@ function About(props) {
                 is to join an entrepreneurial web development team with a focus on mobile-first design and
                 building a better web-experience.
             </div>
-            <Links />
         </div>
 
     )

@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import NavBar from '../components/NavBar/index';
-import Footer from '../components/Footer/index';
-import Banner from '../components/Banner/index';
+import ProjectBanner from '../components/ProjectBanner/index';
 export class Projects extends Component {
     state = {
         nameFirst: "Everett",
@@ -16,17 +14,7 @@ export class Projects extends Component {
     render() {
         return (
             <div>
-                <h1>projects</h1>
-                <NavBar />
-                <Banner
-                    nameFirst={this.state.nameFirst}
-                    nameLast={this.state.nameLast}
-                    position={this.state.position}
-                />
-                <Footer 
-                    nameFirst={this.state.nameFirst}
-                    nameLast={this.state.nameLast}
-                    />
+                <ProjectBanner />
             </div>
         )
     }

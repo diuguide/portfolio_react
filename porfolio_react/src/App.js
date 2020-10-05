@@ -4,16 +4,19 @@ import './App.css';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
+import NavBar from './components/NavBar/index';
 
 function App() {
   return (
-    <Router>
-      <>
-      <Route exact path='/' component={Home} />
-      <Route exact path='/Contact' component={Contact} />
-      <Route exact path='/Projects' component={Projects} />
-      </>
-    </Router>
+    <div>
+      <Router>
+        <NavBar />
+        <Route exact path='/' component={Home} />
+        <Route exact path='/Contact' component={Contact} />
+        <Route exact path='/Projects' component={Projects} />
+      </Router>
+    </div>
+
   );
 }
 

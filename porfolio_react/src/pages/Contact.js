@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import NavBar from '../components/NavBar/index';
-import Footer from '../components/Footer/index';
 import Banner from '../components/Banner/index';
 import ContactCard from '../components/ContactCard/index';
 
@@ -17,9 +15,7 @@ export class Contact extends Component {
 
     render() {
         return (
-            <div>
-                <h1>Contacts</h1>
-                <NavBar />
+            <div>         
                 <Banner
                     nameFirst={this.state.nameFirst}
                     nameLast={this.state.nameLast}
@@ -31,10 +27,6 @@ export class Contact extends Component {
                         position={this.state.position}
                                     
                 />
-                <Footer 
-                    nameFirst={this.state.nameFirst}
-                    nameLast={this.state.nameLast}
-                    />
             </div>
         )
     }

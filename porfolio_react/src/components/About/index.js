@@ -7,7 +7,7 @@ function About(props) {
                 
                 <div className="row">
                     <div className="col m-1 p-3 rounded shadow bg-light">
-                        I am a Web developer with a background in hospitality and communication. I have a proven ability to focus on the
+                        I am a Web developer with a background in Hospitality and Communication. I have a proven ability to focus on the
                 customer experience while enhancing a brand message. I excel in fast paced, team oriented
                 environments that require hard work, attention to detail, and the ability to adapt. My objective
                 is to join an entrepreneurial web development team with a focus on mobile-first design and

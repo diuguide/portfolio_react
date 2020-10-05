@@ -2,9 +2,9 @@ import React from 'react';
 
 function Skills() {
     return (
-        <div className="col bg-light rounded m-1 p-2 d-block shadow">
+        <div className="col bg-info rounded m-1 p-2 d-block shadow" >
             <div className="card">
-                <div className="card-header">
+                <div className="card-header" style={{ backgroundColor: "#9b9b7a" }}>
                     <h4>Technical Skills:</h4>
                 </div>
                 <div className="card-body">

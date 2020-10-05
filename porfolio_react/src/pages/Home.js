@@ -10,7 +10,7 @@ export class Home extends Component {
         nameLast: "Diuguid",
         phone: "(919) 801-8756",
         email: "everett.diuguid@gmail.com",
-        position: "Full Stack Developer",
+        position: "Full Stack Web Developer",
         linkedIn: "https://www.linkedin.com/in/everett-diuguid-583632197/",
         gitHub: "https://github.com/diuguide"
     }

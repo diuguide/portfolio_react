@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Banner(props) {
     return (
         <div  className="row justify-content-center">
-            <div style={{backgroundColor: "#9b9b7a"}} className="col-sm-10 col-md-6 col-lg-6 mt-1rounded p-2 shadow">
+            <div style={{backgroundColor: "#9b9b7a"}} className="col-sm-10 col-md-6 col-lg-6 mt-1 rounded p-2 shadow">
                 <div className="col">
                     <div className="row">
                         <div style={{color: "#f1dca7"}} className="col">

@@ -3,7 +3,7 @@ import React from'react';
 function ContactCard(props) {
     console.log(props);
     return (
-        <div  className="row">
+        <div  className="row justify-content-center">
                 <div className="col-sm-10 col-md-6 col-lg-6 m-3 bg-light rounded">
                     <div className="row">
                         <div className="card shadow">

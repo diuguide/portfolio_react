@@ -42,3 +42,9 @@
   width: 80%;
   text-align: center;
 }
+#github, #linkedin {
+  height: 30px;
+}
+#face {
+  height: 110px
+}

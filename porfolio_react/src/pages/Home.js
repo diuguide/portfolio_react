@@ -18,8 +18,8 @@ export class Home extends Component {
     render() {
         return (
             <div className="container">
-                <div className="row">
-                    <div className="col col-md-4 col-lg-8 m-1">
+                <div className="row d-block d-md-flex">
+                    <div className="col col-lg-8 m-1">
                         <Banner
                             nameFirst={this.state.nameFirst}
                             nameLast={this.state.nameLast}
@@ -27,7 +27,7 @@ export class Home extends Component {
                         />
                         <About />
                     </div>
-                    <div className="col col-md-3 col-lg-3">
+                    <div className="col col-lg-3">
                         <div className="row">
                             <Links />
                         </div>

@@ -10,14 +10,15 @@ export class Contact extends Component {
         email: "everett.diuguid@gmail.com",
         position: "Full Stack Developer",
         linkedIn: "https://www.linkedin.com/in/everett-diuguid-583632197/",
-        gitHub: "https://github.com/diuguide"
+        gitHub: "https://github.com/diuguide",
+        contactGreet: "Thank you for taking a look at my web development portfolio, I look forward to working with you in the future! Please feel free to take a look at my linkedIn profile as well as my github repositories. Have a great day!"
     }
 
     render() {
         return (
             <div className="container">
-                <div clasName="row">
-                    <div className="col col-md-4 col-lg-6 mx-auto">
+                <div className="row">
+                    <div className="col col-lg-7 d-block mx-auto">
                         <Banner
                             nameFirst={this.state.nameFirst}
                             nameLast={this.state.nameLast}
@@ -31,6 +32,7 @@ export class Contact extends Component {
                             phone={this.state.phone}
                             linkedIn={this.state.linkedIn}
                             gitHub={this.state.gitHub}
+                            contactGreet={this.state.contactGreet}
 
                         />
                     </div>

@@ -3,6 +3,9 @@ import Banner from '../components/Banner/index';
 import About from '../components/About/index';
 import Links from '../components/Links/index';
 import Skills from '../components/Skills/index';
+import Projects from './Projects';
+import ProjectBanner from '../components/ProjectBanner';
+import ProjectCard from '../components/ProjectCard';
 
 export class Home extends Component {
     state = {
@@ -36,6 +39,9 @@ export class Home extends Component {
                         </div>
 
                     </div>
+                </div>
+                <div id="projectsSec" className="row">
+                    <Projects />
                 </div>
 
 

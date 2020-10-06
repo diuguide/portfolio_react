@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ProjectBanner from '../components/ProjectBanner/index';
+import ProjectCard from '../components/ProjectCard';
 export class Projects extends Component {
     state = {
         nameFirst: "Everett",
@@ -10,11 +11,18 @@ export class Projects extends Component {
         linkedIn: "https://www.linkedin.com/in/everett-diuguid-583632197/",
         gitHub: "https://github.com/diuguide"
     }
+    handleMouseOver = () => {
+        console.log("mouse over");
+    }
 
     render() {
         return (
             <div>
                 <ProjectBanner />
+                <ProjectCard 
+                mouseOver={this.handleMouseOver}
+                />
+                
             </div>
         )
     }

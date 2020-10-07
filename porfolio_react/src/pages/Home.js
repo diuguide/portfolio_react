@@ -4,8 +4,6 @@ import About from '../components/About/index';
 import Links from '../components/Links/index';
 import Skills from '../components/Skills/index';
 import Projects from './Projects';
-import ProjectBanner from '../components/ProjectBanner';
-import ProjectCard from '../components/ProjectCard';
 
 export class Home extends Component {
     state = {

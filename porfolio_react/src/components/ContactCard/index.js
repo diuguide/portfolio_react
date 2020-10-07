@@ -1,7 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import gitHubImg from '../Images/githubsmall.png';
-import linkedInImg from '../Images/linkedin.png';
 import ediuguid from '../Images/ediuguid.png'
 
 function ContactCard(props) {

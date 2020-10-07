@@ -3,7 +3,7 @@ import React from 'react';
 function About(props) {
     return (
         <div className="row justify-content-center">
-            <div class="col">
+            <div className="col">
                 <div className="row">
                     <div className="col m-1 shadow bg-light rounded">
                         <div className="pt-2 pl-2">Hello World!</div>

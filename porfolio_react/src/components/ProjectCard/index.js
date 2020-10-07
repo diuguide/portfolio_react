@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import openImg from '../Images/screenshots/screenshot_isitopen.png';
 
-function ProjectCard(props) {
 
+function ProjectCard(props) {
+    
+    let [displayEl, setDisplay] = useState('none')
     const mouseOver = () => {
-        console.log("mouse");
+        console.log(displayEl)    
+        setDisplay(displayEl = "block");
+        console.log(displayEl)
     };
     return (
         <div id="main" className="row">
@@ -14,6 +18,7 @@ function ProjectCard(props) {
                     <div className="card-body">
                         <div className="row imageCont">
                             <div className="col">
+                                <div className="test" style={{ display: {displayEl}}} >Hello</div>
                                <img onMouseOver={mouseOver} className="picture" alt="isitopen" src={openImg} /> 
                             </div>
                             {/* <div className="col col-md-4 col-lg-3 float-right imageCont">

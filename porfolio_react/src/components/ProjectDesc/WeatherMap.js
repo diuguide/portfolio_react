@@ -3,10 +3,10 @@ import openImg from '../Images/screenshots/scrn_weathermap.png';
 
 class WeatherMap extends Component {
     render() {
-        return(
-            <div id="main" className="row">
+        return (
+            <div className="row">
                 <div className="col">
-                    <div className="card shadow">
+                    <div className="card shadow" style={{ width: "375px", height: "100%" }}>
                         <h5 className="card-header">Daily Weather Map</h5>
                         <div className="card-body">
                             <div className="row imageCont">

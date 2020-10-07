@@ -18,7 +18,7 @@ export class Projects extends Component {
         return (
             <>
             <div className="row">
-              <div className="col col-md-4 col-lg-5" style={{ display: "contents" }}> 
+              <div className="col" style={{ display: "contents" }}> 
                 <ProjectCard />
             </div>  
             </div>

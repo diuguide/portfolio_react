@@ -5,9 +5,9 @@ class IsItOpen extends Component {
 
     render() {
         return (
-            <div id="main" className="row">
+            <div className="row">
                 <div className="col">
-                    <div className="card shadow">
+                    <div className="card shadow" style={{ width: "375px", height: "100%" }}>
                         <h5 className="card-header">Is it open? An API search engine</h5>
                         <div className="card-body">
                             <div className="row imageCont">

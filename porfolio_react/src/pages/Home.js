@@ -40,7 +40,7 @@ export class Home extends Component {
                     </div>
                 </div>
                 <BlankSpace />
-                <div id="projectsSec" className="row">
+                <div id="Section" className="row">
                     <Projects />
                 </div>
 

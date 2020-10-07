@@ -1,8 +1,7 @@
 import React from 'react';
 import ediuguid from '../Images/ediuguid.png'
 
-function ContactCard(props) {
-    console.log(props);
+function ContactCard() {
     return (
         <div className="row">
             <div className="col bg-light p-1 shadow">

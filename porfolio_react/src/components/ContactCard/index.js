@@ -27,6 +27,11 @@ function ContactCard(props) {
                                 </a>
                             </div>
                         </div>
+                        <div className="row m-1">
+                            <div className="col">
+                                <h4>Please shoot me an email for a copy of my resume!</h4>
+                            </div>
+                        </div>
                     </div>
                     <div className="col ml-3 m-md-3">
                         <img id="face" src={ediuguid} alt="everett diuguid" />

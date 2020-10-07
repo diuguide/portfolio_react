@@ -17,13 +17,11 @@ export class Projects extends Component {
 
     render() {
         return (
-            <div>
-                <ProjectBanner />
-                <ProjectCard 
-                mouseOver={this.handleMouseOver}
-                />
-                
+            <>
+            <div className="col col-md-4 col-lg-5" style={{ display: "contents" }}> 
+                <ProjectCard />
             </div>
+            </>
         )
     }
 }

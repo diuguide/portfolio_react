@@ -3,6 +3,7 @@ import Banner from '../components/Banner/index';
 import About from '../components/About/index';
 import Links from '../components/Links/index';
 import Skills from '../components/Skills/index';
+import BlankSpace from '../components/BlankSpace/index'
 import Projects from './Projects';
 
 export class Home extends Component {
@@ -38,6 +39,7 @@ export class Home extends Component {
 
                     </div>
                 </div>
+                <BlankSpace />
                 <div id="projectsSec" className="row">
                     <Projects />
                 </div>

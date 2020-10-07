@@ -36,16 +36,8 @@ export class Home extends Component {
                         <div className="row">
                             <Skills />
                         </div>
-
                     </div>
                 </div>
-                <BlankSpace />
-                <div id="Section" className="row">
-                    <Projects />
-                </div>
-
-
-
             </div>
         )
     }

@@ -14,7 +14,7 @@ function NavBar() {
                         <Link className="nav-link" to="/">About</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="#Section">Projects</Link>
+                        <Link className="nav-link" to="/Projects">Projects</Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="./Contact">Contact</Link>

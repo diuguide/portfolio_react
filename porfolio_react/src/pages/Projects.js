@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import ProjectBanner from '../components/ProjectBanner/index';
 import ProjectCard from '../components/ProjectCard';
 export class Projects extends Component {
     state = {
@@ -18,8 +17,10 @@ export class Projects extends Component {
     render() {
         return (
             <>
-            <div className="col col-md-4 col-lg-5" style={{ display: "contents" }}> 
+            <div className="row">
+              <div className="col col-md-4 col-lg-5" style={{ display: "contents" }}> 
                 <ProjectCard />
+            </div>  
             </div>
             </>
         )

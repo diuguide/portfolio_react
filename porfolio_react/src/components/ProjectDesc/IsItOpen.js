@@ -11,7 +11,7 @@ class IsItOpen extends Component {
                     <h5 className="card-header">Is it open?</h5>
                     <div className="card-body">
                         <div className="row coverDiv">
-                            <div className="col p-2 mt-5">
+                            <div className="col p-3 mt-5">
                             <h5>An API application that searches for open businesses and covid-19 statistics for a user-defined search location</h5>
 
 

@@ -6,7 +6,7 @@ function Skills() {
             <div className="card-header" style={{ backgroundColor: "#9b9b7a" }}>
                 <h4>Technical Skills:</h4>
             </div>
-            <div className="card-body">
+            <div className="card-body bg-light">
                 <img src="https://img.shields.io/badge/HTML5-informational?style=flat&logo=html5&logoColor=white&color=b7b7a4" alt="HTML" />
                 <img src="https://img.shields.io/badge/CSS3-informational?style=flat&logo=css3&logoColor=white&color=b7b7a4" alt="css" />
                 <img src="https://img.shields.io/badge/JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=b7b7a4" alt="javascript" />

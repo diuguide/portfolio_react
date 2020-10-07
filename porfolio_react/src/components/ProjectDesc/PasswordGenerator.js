@@ -4,7 +4,7 @@ import openImg from '../Images/screenshots/scrn_passwordGenerator.jpg';
 class PasswordGenerator extends Component {
     render() {
         return (
-            <div className="row">
+            
                 <div className="col">
                     <div className="card shadow" style={{ width: "375px", height: "100%" }}>
                         <h5 className="card-header">Password Generator</h5>
@@ -24,7 +24,7 @@ class PasswordGenerator extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            
         )
     }
 }

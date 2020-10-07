@@ -17,11 +17,11 @@ export class Projects extends Component {
     render() {
         return (
             <>
-            <div className="row">
-              <div className="col" style={{ display: "contents" }}> 
-                <ProjectCard />
-            </div>  
-            </div>
+                <div className="row d-flex">
+
+                    <ProjectCard />
+
+                </div>
             </>
         )
     }

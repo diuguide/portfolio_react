@@ -4,8 +4,8 @@ import openImg from '../Images/screenshots/screenshot_myriad.png';
 class Myriad extends Component {
     render() {
         return (
-            <div className="row">
-                <div className="col" >
+            
+                <div className="col " >
                     <div className="card shadow" style={{ width: "375px", height:"100%" }}>
                         <h5 className="card-header">Myriad</h5>
                         <div className="card-body">
@@ -28,7 +28,7 @@ class Myriad extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            
         )
     }
 }

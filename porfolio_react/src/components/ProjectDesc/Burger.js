@@ -4,14 +4,14 @@ import openImg from '../Images/screenshots/screenshot_burger.png';
 class Burger extends Component {
     render() {
         return (
-            <div className="row">
+            
                 <div className="col">
                     <div className="card shadow" style={{ width: "375px", height: "100%" }}>
-                        <h5 className="card-header">Myriad</h5>
+                        <h5 className="card-header">Eat-Da-Burger</h5>
                         <div className="card-body">
                             <div className="row imageCont">
                                 <div className="col">
-                                    <img className="picture" alt="myriad" src={openImg} />
+                                    <img className="picture" alt="burgerapp" src={openImg} />
                                 </div>
                             </div>
                             <div className="row">
@@ -28,7 +28,7 @@ class Burger extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            
         )
     }
 }

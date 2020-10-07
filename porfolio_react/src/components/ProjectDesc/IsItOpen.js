@@ -5,7 +5,7 @@ class IsItOpen extends Component {
 
     render() {
         return (
-            <div className="row">
+            
                 <div className="col">
                     <div className="card shadow" style={{ width: "375px", height: "100%" }}>
                         <h5 className="card-header">Is it open? An API search engine</h5>
@@ -27,7 +27,7 @@ class IsItOpen extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            
         )
     }
 }

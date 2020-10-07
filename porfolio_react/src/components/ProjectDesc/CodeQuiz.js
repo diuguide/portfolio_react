@@ -4,7 +4,7 @@ import openImg from '../Images/screenshots/screenshot_codequiz.png';
 class CodeQuiz extends Component {
     render() {
         return (
-            <div className="row">
+   
                 <div className="col">
                     <div className="card shadow" style={{ width: "375px", height: "100%" }}>
                         <h5 className="card-header">Code Trivia!</h5>
@@ -26,7 +26,7 @@ class CodeQuiz extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            
 
         )
     }

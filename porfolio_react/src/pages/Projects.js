@@ -1,5 +1,11 @@
 import React, { Component } from 'react'
-import ProjectCard from '../components/ProjectCard';
+import CodeQuiz from '../components/ProjectDesc/CodeQuiz.js';
+import IsItOpen from '../components/ProjectDesc/IsItOpen.js'
+import PasswordGenerator from '../components/ProjectDesc/PasswordGenerator.js';
+import WeatherMap from '../components/ProjectDesc/WeatherMap.js';
+import Myriad from '../components/ProjectDesc/Myriad.js';
+import Burger from '../components/ProjectDesc/Burger.js';
+
 export class Projects extends Component {
     state = {
         nameFirst: "Everett",
@@ -17,10 +23,16 @@ export class Projects extends Component {
     render() {
         return (
             <>
-                <div className="row d-flex">
-
-                    <ProjectCard />
-
+                <div className="row">
+                    <div className="col" style={{ display: "contents" }}>
+                            <IsItOpen />
+                            <Myriad />
+                            <WeatherMap />
+                            <CodeQuiz />
+                            <PasswordGenerator />
+                            <Burger />
+                        
+                    </div>
                 </div>
             </>
         )

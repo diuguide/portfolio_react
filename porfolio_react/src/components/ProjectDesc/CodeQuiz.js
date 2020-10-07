@@ -10,8 +10,8 @@ class CodeQuiz extends Component {
                     <h5 className="card-header">Code Trivia!</h5>
                     <div className="card-body">
                     <div className="row coverDiv">
-                            <div className="col">
-
+                            <div className="col mt-5">
+<h5>A fun code trivia game to test your coding knowledge!</h5>
 
 
                             </div>

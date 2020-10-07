@@ -9,9 +9,9 @@ class WeatherMap extends Component {
                 <div className="card shadow" style={{ width: "375px", height: "100%" }}>
                     <h5 className="card-header">Daily Weather Map</h5>
                     <div className="card-body">
-                    <div className="row coverDiv">
-                            <div className="col">
-
+                        <div className="row coverDiv">
+                            <div className="col mt-5 mr-3">
+                                <h5>A weather API application gathering the current and five-day forecast for a selected city</h5>
 
 
                             </div>

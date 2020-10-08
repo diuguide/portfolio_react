@@ -11,14 +11,17 @@
 }
 #github, #linkedin, #deployment {
   height: 25px;
+  padding: 2px;
+  margin-bottom: 5px;
 }
 #face {
   height: 110px
 }
-img {
+.logo {
   padding: 2px;
 }
 .card-body {
+  padding: 0;
   position: relative;
   background-color: #4a4e69;
   
@@ -48,4 +51,7 @@ img {
 .project {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.imgHov {
+  width: 100%;
 }

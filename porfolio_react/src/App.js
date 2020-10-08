@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import NavBar from './components/NavBar/index';
+import Footer from './components/Footer/index';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <NavBar />
         <Route exact path='/' component={Home} />
         <Route exact path='/Contact' component={Contact} />
-        <Route exact path='/Projects' component={Projects} />  
+        <Route exact path='/Projects' component={Projects} /> 
+        <Footer /> 
         </Router>
     </div>
 

@@ -5,7 +5,7 @@ class Burger extends Component {
     render() {
         return (
 
-            <div className="col col-md-3 m-5">
+            <div className="col project">
                 <div className="card shadow" style={{ width: "375px", height: "100%" }}>
                     <h5 className="card-header">Eat-Da-Burger</h5>
                     <div className="card-body">

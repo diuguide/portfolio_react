@@ -5,7 +5,7 @@ class CodeQuiz extends Component {
     render() {
         return (
 
-            <div className="col col-md-3 m-5">
+            <div className="col project">
                 <div className="card shadow" style={{ width: "375px", height: "100%" }}>
                     <h5 className="card-header">Code Trivia!</h5>
                     <div className="card-body">

@@ -5,7 +5,7 @@ import PasswordGenerator from '../components/ProjectDesc/PasswordGenerator.js';
 import WeatherMap from '../components/ProjectDesc/WeatherMap.js';
 import Myriad from '../components/ProjectDesc/Myriad.js';
 import Burger from '../components/ProjectDesc/Burger.js';
-import Banner from '../components/Banner/index.js';
+
 export class Projects extends Component {
     state = {
         nameFirst: "Everett",
@@ -23,7 +23,7 @@ export class Projects extends Component {
     render() {
         return (
             <>
-                <div className="row mx-auto d-block d-md-block d-lg-flex">
+                <div className="row mx-auto d-block d-md-block d-lg-flex w-lg-75">
                     <IsItOpen />
                     <Myriad />
                     <WeatherMap />

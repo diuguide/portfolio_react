@@ -45,3 +45,7 @@ img {
 .card-body:hover .imgHov {
   opacity: 0;
 }
+.project {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

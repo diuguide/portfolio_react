@@ -23,17 +23,17 @@ export class Projects extends Component {
     render() {
         return (
             <>
-                <div className="row">
-                    <div className="col" style={{ display: "contents" }}>
-                            <IsItOpen />
-                            <Myriad />
-                            <WeatherMap />
-                            <CodeQuiz />
-                            <PasswordGenerator />
-                            <Burger />
-                        
-                    </div>
+                <div className="row mx-auto d-block d-md-block d-lg-flex">
+                    <IsItOpen />
+                    <Myriad />
+                    <WeatherMap />
+                    <CodeQuiz />
+                    <PasswordGenerator />
+                    <Burger />
                 </div>
+
+
+
             </>
         )
     }

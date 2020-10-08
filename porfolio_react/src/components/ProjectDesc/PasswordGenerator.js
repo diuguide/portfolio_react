@@ -5,12 +5,13 @@ class PasswordGenerator extends Component {
     render() {
         return (
 
-            <div className="col m-4">
+            <div className="col col-md-3 m-5">
                 <div className="card shadow" style={{ width: "375px", height: "100%" }}>
                     <h5 className="card-header">Password Generator</h5>
                     <div className="card-body">
                     <div className="row coverDiv">
-                            <div className="col">
+                            <div className="col mt-5 mr-2">
+                                <h5>A password generator creating random numbers/characters based on user input</h5>
 
 
 

@@ -5,12 +5,13 @@ class Burger extends Component {
     render() {
         return (
 
-            <div className="col m-4">
+            <div className="col col-md-3 m-5">
                 <div className="card shadow" style={{ width: "375px", height: "100%" }}>
                     <h5 className="card-header">Eat-Da-Burger</h5>
                     <div className="card-body">
                     <div className="row coverDiv">
-                            <div className="col">
+                            <div className="col mt-5 mr-3">
+                                <h5>A fullstack application storing burger data in a database, ready to be consumed!</h5>
 
 
 

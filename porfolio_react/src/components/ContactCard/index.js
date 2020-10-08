@@ -1,5 +1,6 @@
 import React from 'react';
 import ediuguid from '../Images/ediuguid.png'
+import resume from './Everett_Diuguid.pdf'
 
 function ContactCard() {
     return (
@@ -28,7 +29,7 @@ function ContactCard() {
                         </div>
                         <div className="row m-1">
                             <div className="col">
-                                <h4>Please shoot me an email for a copy of my resume!</h4>
+                                <a href={resume} download>Resume</a>
                             </div>
                         </div>
                     </div>

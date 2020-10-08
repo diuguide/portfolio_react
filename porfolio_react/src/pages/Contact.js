@@ -18,7 +18,7 @@ export class Contact extends Component {
         return (
             <div className="container">
                 <div className="row">
-                    <div className="col col-lg-7 d-block mx-auto">
+                    <div className="col col-lg-6 d-block mx-auto">
                         <Banner
                             nameFirst={this.state.nameFirst}
                             nameLast={this.state.nameLast}

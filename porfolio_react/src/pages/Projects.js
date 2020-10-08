@@ -5,7 +5,7 @@ import PasswordGenerator from '../components/ProjectDesc/PasswordGenerator.js';
 import WeatherMap from '../components/ProjectDesc/WeatherMap.js';
 import Myriad from '../components/ProjectDesc/Myriad.js';
 import Burger from '../components/ProjectDesc/Burger.js';
-
+import Banner from '../components/Banner/index.js';
 export class Projects extends Component {
     state = {
         nameFirst: "Everett",

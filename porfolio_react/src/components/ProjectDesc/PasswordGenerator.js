@@ -10,7 +10,7 @@ class PasswordGenerator extends Component {
                     <h5 className="card-header">Password Generator</h5>
                     <div className="card-body">
                     <div className="row coverDiv">
-                            <div className="col mt-5 mr-2">
+                            <div className="col pl-4 pt-3 mt-5 mr-2">
                                 <h5>A password generator creating random numbers/characters based on user input</h5>
 
 

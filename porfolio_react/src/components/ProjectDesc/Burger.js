@@ -10,7 +10,7 @@ class Burger extends Component {
                     <h5 className="card-header">Eat-Da-Burger</h5>
                     <div className="card-body">
                     <div className="row coverDiv">
-                            <div className="col mt-5 mr-3">
+                            <div className="col pl-4 mt-5 mr-3">
                                 <h5>A fullstack application storing burger data in a database, ready to be consumed!</h5>
 
 

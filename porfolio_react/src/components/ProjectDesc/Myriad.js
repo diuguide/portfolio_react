@@ -10,7 +10,7 @@ class Myriad extends Component {
                     <h5 className="card-header">Myriad</h5>
                     <div className="card-body">
                     <div className="row coverDiv">
-                            <div className="col p-3 mt-5">
+                            <div className="col p-3 pl-4 mt-5">
 <h5>A symptom tracking application for collecting and exporting health data for doctors visits</h5>
 
 

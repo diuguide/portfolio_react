@@ -10,10 +10,8 @@ class WeatherMap extends Component {
                     <h5 className="card-header">Daily Weather Map</h5>
                     <div className="card-body">
                         <div className="row coverDiv">
-                            <div className="col pl-4  pt-4 mt-5 mr-3">
+                            <div className="col description">
                                 <h5>A weather API application gathering the current and five-day forecast for a selected city</h5>
-
-
                             </div>
                         </div>
                         <div className="row imageCont">

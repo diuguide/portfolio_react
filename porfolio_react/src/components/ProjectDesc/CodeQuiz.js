@@ -9,11 +9,9 @@ class CodeQuiz extends Component {
                 <div className="card shadow" style={{ width: "375px", height: "100%" }}>
                     <h5 className="card-header">Code Trivia!</h5>
                     <div className="card-body">
-                    <div className="row coverDiv">
-                            <div className="col pl-4 pt-4 mt-5">
-<h5>A fun code trivia game to test your coding knowledge!</h5>
-
-
+                        <div className="row coverDiv">
+                            <div className="col description">
+                                <h5>A fun code trivia game to test your coding knowledge!</h5>
                             </div>
                         </div>
                         <div className="row imageCont">
@@ -43,8 +41,6 @@ class CodeQuiz extends Component {
                     </div>
                 </div>
             </div>
-
-
         )
     }
 }

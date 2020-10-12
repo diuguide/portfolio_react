@@ -9,12 +9,9 @@ class PasswordGenerator extends Component {
                 <div className="card shadow" style={{ width: "375px", height: "100%" }}>
                     <h5 className="card-header">Password Generator</h5>
                     <div className="card-body">
-                    <div className="row coverDiv">
-                            <div className="col pl-4 pt-3 mt-5 mr-2">
+                        <div className="row coverDiv">
+                            <div className="col description">
                                 <h5>A password generator creating random numbers/characters based on user input</h5>
-
-
-
                             </div>
                         </div>
                         <div className="row imageCont">
@@ -42,7 +39,6 @@ class PasswordGenerator extends Component {
                     </div>
                 </div>
             </div>
-
         )
     }
 }

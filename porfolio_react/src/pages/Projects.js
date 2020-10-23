@@ -33,10 +33,6 @@ export class Projects extends Component {
                     <Burger />
                 </div>
                 <BlankSpace />
-
-
-
-
             </>
         )
     }

@@ -32,7 +32,7 @@ class YardPal extends Component {
                         </div>
                         <div className="row mt-2">
                             <div className="col">
-                                <a rel="noopener noreferrer" target="_blank" href="https://github.com/s-suresh-kumar/yard-pal">
+                                <a rel="noopener noreferrer" target="_blank" href="https://github.com/diuguide/yard-pal">
                                     <img id="github" src="https://img.shields.io/badge/REPO-Github-informational?style=flat&logo=github&logoColor=white" alt="github" />
                                 </a>
                                 <a rel="noopener noreferrer" target="_blank" href="https://yard-pal.herokuapp.com/">

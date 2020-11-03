@@ -5,7 +5,8 @@ import PasswordGenerator from '../components/ProjectDesc/PasswordGenerator.js';
 import WeatherMap from '../components/ProjectDesc/WeatherMap.js';
 import Myriad from '../components/ProjectDesc/Myriad.js';
 import Burger from '../components/ProjectDesc/Burger.js';
-import BlankSpace from '../components/BlankSpace/index.js'
+import BlankSpace from '../components/BlankSpace/index.js';
+import YardPal from '../components/ProjectDesc/YardPal.js';
 
 export class Projects extends Component {
     state = {
@@ -25,6 +26,7 @@ export class Projects extends Component {
         return (
             <>
                 <div className="row mx-auto d-block d-md-block d-lg-flex w-lg-75">
+                    <YardPal />
                     <IsItOpen />
                     <Myriad />
                     <WeatherMap />

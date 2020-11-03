@@ -27,7 +27,7 @@ class YardPal extends Component {
                                 <img className="logo" src="https://img.shields.io/badge/NodeJS-informational?style=flat&logo=node-dot-js&logoColor=white&color=b7b7a4" alt="nodeJS" />
                                 <img className="logo" src="https://img.shields.io/badge/Express-informational?style=flat&logo=expressjs&logoColor=white&color=b7b7a4" alt="express" />
                                 <img className="logo" src="https://img.shields.io/badge/Bootstrap-informational?style=flat&logo=bootstrap&logoColor=white&color=b7b7a4" alt="bootstrap" />
-                                <img className="logo" src="https://img.shields.io/badge/ReactJS-informational?style=flat&logo=react&logoColor=white&color=b7b7a4" alt="bootstrap" />
+                                <img className="logo" src="https://img.shields.io/badge/ReactJS-informational?style=flat&logo=react&logoColor=white&color=b7b7a4" alt="react" />
                             </div>
                         </div>
                         <div className="row mt-2">

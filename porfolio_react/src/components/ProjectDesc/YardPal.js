@@ -32,10 +32,10 @@ class YardPal extends Component {
                         </div>
                         <div className="row mt-2">
                             <div className="col">
-                                <a rel="noopener noreferrer" target="_blank" href="https://github.com/diuguide/weather_map">
+                                <a rel="noopener noreferrer" target="_blank" href="https://github.com/s-suresh-kumar/yard-pal">
                                     <img id="github" src="https://img.shields.io/badge/REPO-Github-informational?style=flat&logo=github&logoColor=white" alt="github" />
                                 </a>
-                                <a rel="noopener noreferrer" target="_blank" href="https://diuguide.github.io/weather_map/">
+                                <a rel="noopener noreferrer" target="_blank" href="https://yard-pal.herokuapp.com/">
                                     <img id="deployment" src="https://img.shields.io/badge/DEPLOYMENT-informational?style=flat" alt="github" />
                                 </a>
                             </div>

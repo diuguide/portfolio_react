@@ -26,7 +26,7 @@
 
 ## Usage
 
-- User will navigate to the website.  They can click preferred links embedded in the page or use the navigation bar at top of page.  The landing page displays a short introduction in addition to my current technical skills.  The Projects page includes a brief description of my latest projects, technology used, and a deployment link as well as a repository link.  In the Contact section there is a resume attached along with links to my repository and my LinkedIn account.
+- User will navigate to the website and click preferred links embedded in the page or use the navigation bar at top of page.  The landing page displays a short introduction in addition to my current technical skills.  The Projects page includes a brief description of my latest projects, technology used, and a deployment link as well as a repository link.  In the Contact section there is a resume attached along with links to my repository and my LinkedIn account.
 
 [back to Table of Contents](#table-of-contents)
 

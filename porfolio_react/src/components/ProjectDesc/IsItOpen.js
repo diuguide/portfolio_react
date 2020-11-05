@@ -34,7 +34,7 @@ class IsItOpen extends Component {
                             <a rel="noopener noreferrer" target="_blank" href="https://github.com/diuguide/is_it_open">
                                 <img id="github" src="https://img.shields.io/badge/REPO-Github-informational?style=flat&logo=github&logoColor=white" alt="github" />
                             </a>
-                            <a rel="noopener noreferrer" target="_blank" href="https://thadkingcole.github.io/is_it_open/">
+                            <a rel="noopener noreferrer" target="_blank" href="https://diuguide.github.io/is_it_open/">
                                 <img id="deployment" src="https://img.shields.io/badge/DEPLOYMENT-informational?style=flat" alt="github" />
                             </a>
                         </div>

@@ -1,4 +1,4 @@
-# [React Portfolio](https://diuguide.github.io/portfolio_react/)
+# [ReactJS Portfolio](https://diuguide.github.io/portfolio_react/)
 
 
 ![GitHub top language](https://img.shields.io/github/languages/top/s-suresh-kumar/yard-pal)

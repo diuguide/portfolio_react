@@ -1,6 +1,6 @@
 import React from 'react';
 import ediuguid from '../Images/ediuguid.jpg'
-import resume from './Everett_Diuguid.pdf'
+
 
 function ContactCard() {
     return (

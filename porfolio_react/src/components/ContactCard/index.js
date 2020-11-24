@@ -29,7 +29,7 @@ function ContactCard() {
                         </div>
                         <div className="row m-1">
                             <div className="col">
-                                <a href={resume} download>Resume</a>
+                        cd por  
                             </div>
                         </div>
                     </div>
